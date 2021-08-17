@@ -68,6 +68,7 @@ a {
   top: -34px;
   left: -22px;
   text-decoration: none;
+  color: rgb(53, 53, 53);
 }
 
 .weather-temperature .active {
