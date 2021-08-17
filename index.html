@@ -15,34 +15,46 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>New York, NY</h1>
-        <ul>
-          <li>Friday, 05:00</li>
-          <li>Clear</li>
-        </ul>
-        <ul>
-          <div class="row">
-            <div class="col-6">
-              <img src="media/clear.png" alt="Clear" width="100" />
-              12°C | °F
-            </div>
-            <div class="col-6">
-              <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 75%</li>
-                <li>Wind: 10 km/h</li>
-              </ul>
-            </div>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>New York, NY</h1>
+            <ul>
+              <li>Friday, 05:00</li>
+              <li>Clear</li>
+            </ul>
           </div>
-        </ul>
+          <ul>
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix weather-temperature">
+                  <img src="media/clear.png" alt="Clear" class="float-left" />
+                  <div class="float-left">
+                    <strong> 12</strong>
+                    <span class="units">°C | <a href="#"> °F </a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <ul>
+                  <li>Precipitation: 0%</li>
+                  <li>Humidity: 75%</li>
+                  <li>Wind: 10 km/h</li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <small
+          ><a
+            href="https://github.com/AndreaMac1/Weather-App-Correction-Week-7"
+          >
+            Open-source</a
+          >
+          code by Andrea Mac.
+        </small>
       </div>
-      <small
-        ><a href="https://github.com/AndreaMac1/Weather-App-Correction-Week-7">
-          Open-source</a
-        >
-        code by Andrea Mac.
-      </small>
     </div>
 
     <script src="src/index.js"></script>
