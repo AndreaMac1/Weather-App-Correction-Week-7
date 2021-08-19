@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: rgb(53, 53, 53);
+  color: #4c5374;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 0;
@@ -11,7 +11,7 @@ h1 {
 
 li {
   list-style: none;
-  color: rgb(53, 53, 53);
+  color: #4c5374;
   font-size: 16px;
   line-height: 18px;
   margin: 0;
@@ -39,13 +39,18 @@ a {
   padding: 20px;
   border: 1px solid rgb(201, 198, 198);
   border-radius: 6px;
+  background: #f7feff;
 }
 .overview {
   margin-bottom: 20px;
 }
 
+.change-color {
+  background-color: #4c5374;
+  border-color: #4c5374;
+}
 .weather-temperature strong {
-  color: rgb(53, 53, 53);
+  color: #4c5374;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -65,7 +70,7 @@ a {
   font-size: 16px;
   top: -34px;
   text-decoration: none;
-  color: rgb(53, 53, 53);
+  color: #4c5374;
 }
 
 .weather-forecast {
@@ -74,14 +79,14 @@ a {
 }
 .weather-forecast-date {
   font-size: 16px;
-  color: rgb(133, 131, 131);
+  color: #71647c;
 }
 .weather-forecast-temperature-high {
   font-size: 16px;
-  color: rgb(133, 131, 131);
+  color: #71647c;
 }
 .weather-forecast-temperature-low {
   font-size: 16px;
-  color: rgb(133, 131, 131);
+  color: #71647c;
   opacity: 0.7;
 }
