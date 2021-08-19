@@ -68,15 +68,6 @@ a {
   color: rgb(53, 53, 53);
 }
 
-.weather-temperature .active {
-  color: rgb(53, 53, 53);
-  cursor: default;
-  text-decoration: none;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
